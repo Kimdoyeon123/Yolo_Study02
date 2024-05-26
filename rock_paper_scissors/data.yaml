@@ -1,0 +1,12 @@
+train: C:/Users/user/Desktop/Yolov8_study02/rock_paper_scissors/train/images
+val: C:/Users/user/Desktop/Yolov8_study02/rock_paper_scissors/valid/images
+test: C:/Users/user/Desktop/Yolov8_study02/rock_paper_scissors/test/images
+nc: 3
+names: ['Paper', 'Rock', 'Scissors']
+
+roboflow:
+  workspace: roboflow-58fyf
+  project: rock-paper-scissors-sxsw
+  version: 14
+  license: Private
+  url: https://universe.roboflow.com/roboflow-58fyf/rock-paper-scissors-sxsw/dataset/14
